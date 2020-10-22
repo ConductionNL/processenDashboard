@@ -4,20 +4,20 @@
 
 settings:
   registryBase: docker.io/conduction
-  projectName: id-vault
-  name: id-vault
-  title: ID Vault
+  projectName: pc
+  name: pc
+  title: Proto component commonground
   version: V1.0
   majorVersion: v1
-  id: 31a2ad29-ee03-4aa9-be81-abf1fda7bbcc
-  description: 'Naast deze JSON rest API is er ook een [graphql](/graphql) interface beschikbaar.'
-  type: application
-  repro: https://github.com/ConductionNL/id-vault
-  demo: dev.id-vault.com
-  container: https://hub.docker.com/repository/docker/conduction/id-vault-php
-  domain: id-vault.com
-  subdomain: false
-  subpath: 
+  id: 
+  description: '&#039;Naast deze JSON rest API is er ook een [graphql](/graphql) interface beschikbaar.&#039;'
+  type: component
+  repro: https://github.com/ConductionNL/proto-component
+  demo: pc.zaakonline.nl
+  container: https://hub.docker.com/repository/docker/conduction/pc-php
+  domain: conduction.nl
+  subdomain: pc
+  subpath: pc
   subpathRouting: true
   organisationName: Conduction
   email: info@conduction.nl
@@ -27,11 +27,8 @@ settings:
   unit: Common-Ground
   env: dev
   web: false
-  internal: false
   debug: 1
   cache: 1
-  url: http://localhost
-  sessionDuration: 900
   replicaCount: 1
   corsAllowOrigin: ['*']
   trustedHosts: '^.+$'
@@ -53,10 +50,10 @@ settings:
   archiveEnabled: false
 
 security:
-  commongroundId: "31a2ad29-ee03-4aa9-be81-abf1fda7bbcc"
+  commongroundId: "9329d8d0-1d5e-433c-bb47-6991053c7fcb"
   commongroundKey: "45c1a4b6-59d3-4a6e-86bf-88a872f35845"
   applicationKey: "45c1a4b6-59d3-4a6e-86bf-88a872f35845"
-  userKey: "45c1a4b6-59d3-4a6e-86bf-88a872f35845"
+  userKey: "79d5b14c-70ab-41fb-ac02-917e3288870b"
   authorisationProviderUser: https://uc.zuid-drecht.nl
   authorisationProviderApplication: https://openzaak.dev.zuid-drecht.nl/authorizaties/api/v1
 
@@ -112,15 +109,6 @@ mercure:
     type: NodePort
     port: 80
 
-redis:
-    port: 6379
-    version: 5.0
-    memory: 100Mi
-    cpu: 100m
-    limits:
-        memory: 200Mi
-        cpu: 250m
-
 ingress:
   annotations:
     # kubernetes.io/ingress.global-static-ip-name: chart-ip
@@ -150,9 +138,3 @@ resources: {}
   # requests:
   #  cpu: 100m
   #  memory: 128Mi
-
-commonground:
-    eherkenning:
-        location: https://id-vault.com/eherkenning
-    digispoof:
-        location: https://id-vault.com/digispoof
