@@ -721,12 +721,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ConductionNL/FlatlandBundle.git",
-                "reference": "459b4b5dabe12dba78c337c2cb002c2f4611661b"
+                "reference": "53a8daa28e0496b32cf9c08cec89cb4b9e92313f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ConductionNL/FlatlandBundle/zipball/459b4b5dabe12dba78c337c2cb002c2f4611661b",
-                "reference": "459b4b5dabe12dba78c337c2cb002c2f4611661b",
+                "url": "https://api.github.com/repos/ConductionNL/FlatlandBundle/zipball/53a8daa28e0496b32cf9c08cec89cb4b9e92313f",
+                "reference": "53a8daa28e0496b32cf9c08cec89cb4b9e92313f",
                 "shasum": ""
             },
             "require": {
@@ -765,7 +765,7 @@
                 "gebruikercentraal",
                 "materialdesign"
             ],
-            "time": "2020-10-23T11:12:37+00:00"
+            "time": "2020-10-23T11:47:38+00:00"
         },
         {
             "name": "dasprid/enum",
