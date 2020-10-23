@@ -1,3 +1,0 @@
-conduction_landkit:
-  resource: "@LandkitBundle/Resources/config/routes.yaml"
-  prefix: /

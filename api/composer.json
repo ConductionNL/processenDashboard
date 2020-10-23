@@ -7,10 +7,12 @@
         "ext-iconv": "*",
         "api-platform/api-pack": "^1.1",
         "conduction/commongroundbundle": "dev-symfony51",
-        "phpoffice/phpword": "^0.17.0",
-		"dompdf/dompdf": "^0.8.5",
-        "conduction/flatlandbundle": "dev-main",
+        "conduction/flatlandbundle": "dev-master",
+        "dompdf/dompdf": "^0.8.5",
+        "endroid/qr-code-bundle": "^3.4",
+        "endroid/qrcode-bundle": "^3.4",
         "phpdocumentor/reflection-docblock": "^4.3",
+        "phpoffice/phpword": "^0.17.0",
         "sensio/framework-extra-bundle": "^5.5",
         "sensiolabs/security-checker": "^6.0",
         "symfony/asset": "5.1.*",
@@ -65,7 +67,9 @@
     },
     "scripts": {
         "auto-scripts": {
-            "security-checker security:check": "script"
+            "security-checker security:check": "script",
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
         }
     }
 }
