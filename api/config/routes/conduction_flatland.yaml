@@ -1,0 +1,3 @@
+conduction_flatland:
+  resource: "@FlatlandBundle/Resources/config/routes.yaml"
+  prefix: /
