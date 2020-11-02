@@ -37,6 +37,9 @@
     "composer/xdebug-handler": {
         "version": "1.4.3"
     },
+    "conduction/atlantisbundle": {
+        "version": "dev-main"
+    },
     "conduction/commongroundbundle": {
         "version": "dev-symfony51"
     },
@@ -246,7 +249,7 @@
         "version": "v0.3.3"
     },
     "php": {
-        "version": "7.3"
+        "version": "7.4"
     },
     "php-cs-fixer/diff": {
         "version": "v1.3.1"

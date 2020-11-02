@@ -6,6 +6,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "api-platform/api-pack": "^1.1",
+        "conduction/atlantisbundle": "dev-main",
         "conduction/commongroundbundle": "dev-symfony51",
         "conduction/flatlandbundle": "dev-master",
         "dompdf/dompdf": "^0.8.5",

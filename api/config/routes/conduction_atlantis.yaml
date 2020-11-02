@@ -1,0 +1,3 @@
+conduction_atlantis:
+  resource: "@AtlantisBundle/Resources/config/routes.yaml"
+  prefix: /

@@ -19,4 +19,5 @@ return [
     Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle::class => ['all' => true],
     Endroid\QrCodeBundle\EndroidQrCodeBundle::class => ['all' => true],
     Conduction\FlatlandBundle\FlatlandBundle::class => ['all' => true],
+    Conduction\AtlantisBundle\AtlantisBundle::class => ['all' => true],
 ];
