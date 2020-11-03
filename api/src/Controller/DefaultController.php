@@ -26,16 +26,4 @@ class DefaultController extends AbstractController
 
         return  $variables;
     }
-
-    /**
-     * @Template
-     * @Route("/challanges")
-     */
-    public function challangesAction()
-    {
-        $variables = [];
-
-        return  $variables;
-    }
-
 }
