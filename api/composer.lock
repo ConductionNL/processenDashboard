@@ -629,12 +629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ConductionNL/AtlantisBundle.git",
-                "reference": "aabfdd1c4e0dc4c35ad0ba0c9b902244232fb6c1"
+                "reference": "14d5232b133a74b822d022409325aa5ce658dec0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ConductionNL/AtlantisBundle/zipball/aabfdd1c4e0dc4c35ad0ba0c9b902244232fb6c1",
-                "reference": "aabfdd1c4e0dc4c35ad0ba0c9b902244232fb6c1",
+                "url": "https://api.github.com/repos/ConductionNL/AtlantisBundle/zipball/14d5232b133a74b822d022409325aa5ce658dec0",
+                "reference": "14d5232b133a74b822d022409325aa5ce658dec0",
                 "shasum": ""
             },
             "require": {
@@ -672,7 +672,7 @@
                 "symfony",
                 "theme"
             ],
-            "time": "2020-11-02T14:28:56+00:00"
+            "time": "2020-11-02T19:56:55+00:00"
         },
         {
             "name": "conduction/commongroundbundle",
@@ -2327,6 +2327,7 @@
                 "reflection",
                 "static"
             ],
+            "abandoned": "roave/better-reflection",
             "time": "2020-03-27T11:06:43+00:00"
         },
         {
