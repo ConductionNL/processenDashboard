@@ -13,9 +13,9 @@ use Symfony\Component\Routing\Annotation\Route;
  *
  * Class ApiController
  *
- * @Route("/dashboard")
+ * @Route("/process")
  */
-class DashboardController extends AbstractController
+class ProcessController extends AbstractController
 {
     /**
      * @Template

@@ -72,40 +72,28 @@
                     <span class="menu-title">{{ 'dashboard'|trans|capitalize }}</span>
                 </a>
             </li>
-            <li class="nav-item {% if app.request.attributes.get('_route') == 'app_dashboard_clusters' %}active{% endif %}">
-                <a class="nav-link" href="{{ path('app_dashboard_clusters') }}">
+            <li class="nav-item {% if app.request.attributes.get('_route') == 'app_request_index' %}active{% endif %}">
+                <a class="nav-link" href="{{ path('app_request_index') }}">
                     <i class="link-icon fal fa-server"></i>
-                    <span class="menu-title">{{ 'clusters'|trans|capitalize }}</span>
+                    <span class="menu-title">{{ 'requests'|trans|capitalize }}</span>
                 </a>
             </li>
-            <li class="nav-item {% if app.request.attributes.get('_route') == 'app_dashboard_installations' %}active{% endif %}">
-                <a class="nav-link" href="{{ path('app_dashboard_installations') }}">
+            <li class="nav-item {% if app.request.attributes.get('_route') == 'app_request_types' %}active{% endif %}">
+                <a class="nav-link" href="{{ path('app_request_types') }}">
                     <i class="link-icon fal fa-browser"></i>
-                    <span class="menu-title">{{ 'installations'|trans|capitalize }}</span>
+                    <span class="menu-title">{{ 'request types'|trans|capitalize }}</span>
                 </a>
             </li>
-            <li class="nav-item {% if app.request.attributes.get('_route') == 'app_dashboard_components' %}active{% endif %}">
-                <a class="nav-link" href="{{ path('app_dashboard_components') }}">
+            <li class="nav-item {% if app.request.attributes.get('_route') == 'app_process_index' %}active{% endif %}">
+                <a class="nav-link" href="{{ path('app_process_index') }}">
                     <i class="link-icon fal fa-chart-network"></i>
-                    <span class="menu-title">{{ 'components'|trans|capitalize }}</span>
+                    <span class="menu-title">{{ 'process types'|trans|capitalize }}</span>
                 </a>
             </li>
-            <li class="nav-item {% if app.request.attributes.get('_route') == 'app_dashboard_databases' %}active{% endif %}">
-                <a class="nav-link" href="{{ path('app_dashboard_databases') }}">
+            <li class="nav-item {% if app.request.attributes.get('_route') == 'app_vsbe_index' %}active{% endif %}">
+                <a class="nav-link" href="{{ path('app_vsbe_index') }}">
                     <i class="link-icon fal fa-database"></i>
-                    <span class="menu-title">{{ 'databases'|trans|capitalize }}</span>
-                </a>
-            </li>
-            <li class="nav-item {% if app.request.attributes.get('_route') == 'app_dashboard_invoices' %}active{% endif %}">
-                <a class="nav-link" href="{{ path('app_dashboard_invoices') }}">
-                    <i class="link-icon fal fa-file-invoice-dollar"></i>
-                    <span class="menu-title">{{ 'invoices'|trans|capitalize }}</span>
-                </a>
-            </li>
-            <li class="nav-item {% if app.request.attributes.get('_route') == 'app_dashboard_organization' %}active{% endif %}">
-                <a class="nav-link" href="{{ path('app_dashboard_organization') }}">
-                    <i class="link-icon fal fa-building"></i>
-                    <span class="menu-title">{{ 'organization'|trans|capitalize }}</span>
+                    <span class="menu-title">{{ 'very small busness engine'|trans|capitalize }}</span>
                 </a>
             </li>
         </ul>

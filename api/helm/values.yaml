@@ -4,17 +4,17 @@
 
 settings:
   registryBase: docker.io/conduction
-  projectName: commongroundnu
-  name: commongroundnu
-  title: Commonground NU
+  projectName: processen-db
+  name: processen-db
+  title: Processen Dashboard
   version: V1.0
   majorVersion: v1
   id: 31a2ad29-ee03-4aa9-be81-abf1fda7bbcc
-  description: '&quot;Naast deze JSON rest API is er ook een [graphql](/graphql) interface beschikbaar.&quot;'
+  description: 'Naast deze JSON rest API is er ook een [graphql](/graphql) interface beschikbaar.'
   type: application
-  repro: https://github.com/ConductionNL/commongroundnu
+  repro: https://github.com/ConductionNL/processenDashboard
   demo: dev.commonground.nu
-  container: https://hub.docker.com/repository/docker/conduction/commongroundnu-php
+  container: https://hub.docker.com/repository/docker/conduction/processen-db-php
   domain: commonground.nu
   subdomain: false
   subpath: 

@@ -13,9 +13,9 @@ use Symfony\Component\Routing\Annotation\Route;
  *
  * Class ApiController
  *
- * @Route("/dashboard")
+ * @Route("/vsbe")
  */
-class DashboardController extends AbstractController
+class VsbeController extends AbstractController
 {
     /**
      * @Template
@@ -27,4 +27,5 @@ class DashboardController extends AbstractController
 
         return  $variables;
     }
+
 }

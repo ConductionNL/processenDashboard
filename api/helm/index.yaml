@@ -3,7 +3,7 @@ entries:
   commonground-nu:
   - apiVersion: v1
     appVersion: V1.0
-    created: "2020-11-03T08:12:19.1495583Z"
+    created: "2020-11-03T22:50:18.7970156Z"
     description: Naast deze JSON rest API is er ook een [graphql](/graphql) interface
       beschikbaar.
     digest: b95e9cd3276b256e3cc80ca681cc47331fe44e56708f06e0552a216bd234017d
@@ -16,10 +16,10 @@ entries:
   commongroundnu:
   - apiVersion: v1
     appVersion: V1.0
-    created: "2020-11-03T08:12:19.1572982Z"
-    description: Naast deze JSON rest API is er ook een [graphql](/graphql) interface
-      beschikbaar.
-    digest: e58387d32b457f3d42a118b1ca578fc0d4377a68b8d0fc97a6ee951d742318fe
+    created: "2020-11-03T22:50:18.8022632Z"
+    description: '&quot;Naast deze JSON rest API is er ook een [graphql](/graphql)
+      interface beschikbaar.&quot;'
+    digest: 791bdc00175d3bb2dac4dcc634f00b5f334023940965d0d85825dc0d76af68ea
     home: www.commonground.nu
     icon: www.commonground.nu
     name: commongroundnu
@@ -29,7 +29,7 @@ entries:
   id-vault:
   - apiVersion: v1
     appVersion: V1.0
-    created: "2020-11-03T08:12:19.1670396Z"
+    created: "2020-11-03T22:50:18.8092927Z"
     description: Naast deze JSON rest API is er ook een [graphql](/graphql) interface
       beschikbaar.
     digest: 7c010b752727c7f2fe9c7e68c151f84271fdcfef75611acfe93c556fc7fd77a6
@@ -42,7 +42,7 @@ entries:
   pc:
   - apiVersion: v1
     appVersion: V1.0
-    created: "2020-11-03T08:12:19.1773027Z"
+    created: "2020-11-03T22:50:18.8149032Z"
     description: '&#039;Naast deze JSON rest API is er ook een [graphql](/graphql)
       interface beschikbaar.&#039;'
     digest: c860b1af96831908a11d8bcdcf01479cd2061a4aecaf26b5f9e23aa90f8a42c6
@@ -52,4 +52,4 @@ entries:
     urls:
     - pc-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-03T08:12:19.1395463Z"
+generated: "2020-11-03T22:50:18.7907246Z"

@@ -13,9 +13,9 @@ use Symfony\Component\Routing\Annotation\Route;
  *
  * Class ApiController
  *
- * @Route("/dashboard")
+ * @Route("/request")
  */
-class DashboardController extends AbstractController
+class RequestController extends AbstractController
 {
     /**
      * @Template
@@ -27,4 +27,16 @@ class DashboardController extends AbstractController
 
         return  $variables;
     }
+
+    /**
+     * @Template
+     * @Route("/types")
+     */
+    public function typesAction(CommonGroundService $commonGroundService, Request $request)
+    {
+        $variables = [];
+
+        return  $variables;
+    }
+
 }

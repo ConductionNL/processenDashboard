@@ -40,6 +40,7 @@
 
     {% include 'dashboard/sidebar.html.twig' %}
 </div>
+
 <!--   Core JS Files   -->
 <script src="/bundles/atlantis/assets/js/core/jquery.3.2.1.min.js"></script>
 <script src="/bundles/atlantis/assets/js/core/popper.min.js"></script>
@@ -107,15 +108,17 @@
 <!-- Sweet Alert -->
 <script src="/bundles/atlantis/assets/js/plugin/sweetalert/sweetalert.min.js"></script>
 
+<!-- Sortable https://github.com/SortableJS/sortablejs -->
+<script src="/bundles/atlantis/assets/js/plugin/sortable/sortable.min.js"></script>
+
 <!-- Fontawesome -->
 <script src="https://kit.fontawesome.com/27aca7094d.js" crossorigin="anonymous"></script>
 
 <!-- Atlantis JS -->
 <script src="/bundles/atlantis/assets/js/atlantis2.min.js"></script>
 
-<!-- Atlantis DEMO methods, don't include it in your project! -->
-<script src="/bundles/atlantis/assets/js/demo.js"></script>
-
-
+<script>
+    {% block script %}{% endblock %}
+</script>
 </body>
 </html>
